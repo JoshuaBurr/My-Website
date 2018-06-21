@@ -22,9 +22,11 @@ Else or then make a different condition happen.
 
 Software Lifecycle
 
-The software lifecycle is made up of around 5 stages. The first part of the cycle is
+The software lifecycle is made up of around 4 stages. The first part of the cycle is
 the design, this is where you make you ideas. Next is the implementation where you take your
-design and make it / code it. The next is
+design and make it / code it. The next is testing where you see you did wrong. then
+comes the troubleshooting to fix what went wrong. and after that you start back at the
+beginning again.
 
 
 

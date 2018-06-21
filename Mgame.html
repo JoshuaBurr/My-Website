@@ -1,7 +1,21 @@
 <!DOCTYPE html>
 <html>
   <body>
+    <div class="values">00:00:00</div>
+    <div>
+        <button class="startButton">Start</button>
+        <button class="pauseButton" >Pause</button>
+        <button class="stopButton">Stop</button>
+        <button class="resetButton">Reset</button>
+    </div>
+    <p id="Clock"></p>
     <script>
+    var myVar = setInterval(myTimer, 1000);
+
+function myTimer() {
+    var d = new Date();
+    document.getElementById("Clock").innerHTML = d.toLocaleTimeString();
+}
     /***********************************************
     Author: Josh Burr
     Last Modified Date:
@@ -30,7 +44,7 @@
     //--------------------------------------Function declarations
     function DisplayText(text)
       {
-      context.beginpath();
+      context.beginPath();
       context.fillStyle = "orange";
       context.fillText(text, 100 , 100);
       context.stroke();
